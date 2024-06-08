@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./script.js"></script>
+    <title>Chronological Age Calculator</title>
+  </head>
+  <body>
+    <div class="card-container">
+      <header>
+        <h1>Chronological Age Calculator</h1>
+        <div class="line-break"></div>
+      </header>
+      <main>
+        <div class="main-grid">
+          <div class="date-of-birth-wrapper">
+            <label for="date-of-birth">Date of Birth:</label>
+            <input type="date" id="date-of-birth" />
+          </div>
+          <div class="calculation-date-wrapper">
+            <label for="calculation-date">Calculation Date:</label>
+            <input type="date" id="calculation-date" />
+          </div>
+        </div>
+        <div class="calculate-button-wrapper">
+          <button id="calculate-btn">Calculate</button>
+        </div>
+        <div class="output-wrapper">
+          <div>
+            <span id="years">-</span>
+            <p>Year(s)</p>
+          </div>
+          <div>
+            <span id="months">-</span>
+            <p>Month(s)</p>
+          </div>
+          <div>
+            <span id="days">-</span>
+            <p>Day(s)</p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <a
+          class="author"
+          href="https://twitter.com/ismailmamaniat"
+          target="_blank"
+        >
+          <i class="fa-brands fa-twitter"></i>DR Ismail Mamaniat</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
